@@ -37,7 +37,9 @@ public class Menu {
                     break;
                 case "3":
                     csvReaderWriter.displayDictionary();
-                    searchWord();
+                    System.out.print("Entrez un mot pour afficher sa définition : ");
+                    String word = scanner.nextLine();
+                    csvReaderWriter.searchDefinition(word);
                     break;
                 case "4":
                     System.out.println("Programme terminé.");
@@ -48,19 +50,5 @@ public class Menu {
         }  while (!option.equals("4") && !option.equalsIgnoreCase("quitter"));
         // Fermer le scanner pour libérer les ressources
         scanner.close();
-    }
-
-    // Méthode pour chercher et afficher la définition d'un mot
-    private void searchWord() {
-
-        for (Map.Entry<String, String> entry : csvReaderWriter.getDictionary().entrySet()) {
-            if (entry.getValue().isEmpty()) {
-                System.out.println(entry.getKey());
-            }
-        }
-
-        System.out.print("Entrez un mot pour afficher sa définition : ");
-        String word = scanner.nextLine();
-        csvReaderWriter.searchDefinition(word);
     }
 }
