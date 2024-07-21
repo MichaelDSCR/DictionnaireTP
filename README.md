@@ -10,42 +10,13 @@ Ce projet est une application Java simple qui permet de lire, sauvegarder et rec
 - Journalisation des activités avec SLF4J et Logback
 - Tests unitaires avec JUnit
 
-## Structure du Projet
-├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ └── com/
-│ │ │ └── formation/
-│ │ │ └── poe/
-│ │ │ └── java/
-│ │ │ └── dictionnaire/
-│ │ │ ├── Dictionnaire.java
-│ │ │ ├── Main.java
-│ │ │ ├── Menu.java
-│ │ │ └── exceptions/
-│ │ │ └── DictionnaireException.java
-│ │ └── resources/
-│ │ └── data/
-│ │ ├── entree.csv
-│ │ └── sortie.csv
-│ └── test/
-│ └── java/
-│ └── com/
-│ └── formation/
-│ └── poe/
-│ └── java/
-│ └── dictionnaire/
-│ └── DictionnaireTest.java
-└── pom.xml
-
-
 ## Prérequis
 - Java 11 ou supérieur
 - Maven 3.6 ou supérieur
 
 ## Installation
 1. Clonez le dépôt :
-   git clone https://github.com/votre-utilisateur/votre-projet.git
+   git clone https://github.com/MichaelDSCR/dictionnaireTP.git
 2. Accédez au répertoire du projet :
    cd votre-projet
 4. Executez l'application :
