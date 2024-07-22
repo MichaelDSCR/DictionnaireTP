@@ -1,0 +1,28 @@
+
+2024-07-22 09:45:52 243  INFO  c.f.poe.java.dictionnaire.Main - Lancement de l'application.
+2024-07-22 09:45:52 251  INFO  c.f.p.java.dictionnaire.Dictionnaire - Début de la lecture du fichier CSV.
+2024-07-22 09:45:52 267  INFO  c.f.p.java.dictionnaire.Dictionnaire - Lecture du fichier CSV terminée avec succès.
+2024-07-22 10:29:55 231  INFO  c.f.poe.java.dictionnaire.Main - Lancement de l'application.
+2024-07-22 10:29:55 239  INFO  c.f.p.java.dictionnaire.Dictionnaire - Début de la lecture du fichier CSV.
+2024-07-22 10:29:55 255  INFO  c.f.p.java.dictionnaire.Dictionnaire - Lecture du fichier CSV terminée avec succès.
+2024-07-22 10:54:11 238  INFO  c.f.poe.java.dictionnaire.Main - Lancement de l'application.
+2024-07-22 10:54:11 247  INFO  c.f.p.java.dictionnaire.Dictionnaire - Début de la lecture du fichier CSV.
+2024-07-22 10:54:11 262  INFO  c.f.p.java.dictionnaire.Dictionnaire - Lecture du fichier CSV terminée avec succès.
+2024-07-22 10:54:23 11842 INFO  c.f.p.java.dictionnaire.Dictionnaire - Recherche de la définition d'un mot.
+2024-07-22 10:54:23 11842 INFO  c.f.p.java.dictionnaire.Dictionnaire - Affichage de la liste des mots.
+2024-07-22 10:54:27 16211 INFO  c.f.p.java.dictionnaire.Dictionnaire - Définition trouvée pour le mot 'pizza': plat cuisiné chaud constitué d’une pâte à pain recouverte de sauce tomate cuisinée et garnie de divers ingrédients.
+2024-07-22 11:20:00 242  INFO  c.f.poe.java.dictionnaire.Main - Lancement de l'application.
+2024-07-22 11:20:00 251  INFO  c.f.p.java.dictionnaire.Dictionnaire - Début de la lecture du fichier CSV.
+2024-07-22 11:20:00 266  INFO  c.f.p.java.dictionnaire.Dictionnaire - Lecture du fichier CSV terminée avec succès.
+2024-07-22 11:21:18 234  INFO  c.f.poe.java.dictionnaire.Main - Lancement de l'application.
+2024-07-22 11:21:18 234  INFO  c.f.p.java.dictionnaire.Dictionnaire - Début de la lecture du fichier CSV.
+2024-07-22 11:21:18 250  INFO  c.f.p.java.dictionnaire.Dictionnaire - Lecture du fichier CSV terminée avec succès.
+2024-07-22 11:22:10 240  INFO  c.f.poe.java.dictionnaire.Main - Lancement de l'application.
+2024-07-22 11:22:10 247  INFO  c.f.p.java.dictionnaire.Dictionnaire - Début de la lecture du fichier CSV.
+2024-07-22 11:22:10 266  INFO  c.f.p.java.dictionnaire.Dictionnaire - Lecture du fichier CSV terminée avec succès.
+2024-07-22 11:23:23 73180 INFO  c.f.p.java.dictionnaire.Dictionnaire - Recherche de la définition d'un mot.
+2024-07-22 11:23:23 73181 INFO  c.f.p.java.dictionnaire.Dictionnaire - Affichage de la liste des mots.
+2024-07-22 11:23:32 82125 INFO  c.f.p.java.dictionnaire.Dictionnaire - Définition trouvée pour le mot 'pizza': plat cuisiné chaud constitué d’une pâte à pain recouverte de sauce tomate cuisinée et garnie de divers ingrédients.
+2024-07-22 11:24:56 231  INFO  c.f.poe.java.dictionnaire.Main - Lancement de l'application.
+2024-07-22 11:24:56 240  INFO  c.f.p.java.dictionnaire.Dictionnaire - Début de la lecture du fichier CSV.
+2024-07-22 11:24:56 257  INFO  c.f.p.java.dictionnaire.Dictionnaire - Lecture du fichier CSV terminée avec succès.

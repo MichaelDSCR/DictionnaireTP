@@ -6,10 +6,26 @@ import org.slf4j.LoggerFactory;
 
 public class Main {
 
-    private static final Logger logger = LoggerFactory.getLogger(Main.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(Main.class);
+
+    public static void afficherArtAscii() {
+        String artAscii =
+
+                "██████╗ ██╗ ██████╗████████╗██╗ ██████╗ ███╗   ██╗███╗   ██╗ █████╗ ██╗██████╗ ███████╗\n" +
+                "██╔══██╗██║██╔════╝╚══██╔══╝██║██╔═══██╗████╗  ██║████╗  ██║██╔══██╗██║██╔══██╗██╔════╝\n" +
+                "██║  ██║██║██║        ██║   ██║██║   ██║██╔██╗ ██║██╔██╗ ██║███████║██║██████╔╝█████╗\n" +
+                "██║  ██║██║██║        ██║   ██║██║   ██║██║╚██╗██║██║╚██╗██║██╔══██║██║██╔══██╗██╔══╝\n" +
+                "██████╔╝██║╚██████╗   ██║   ██║╚██████╔╝██║ ╚████║██║ ╚████║██║  ██║██║██║  ██║███████╗\n" +
+                "╚═════╝ ╚═╝ ╚═════╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚══════╝";
+
+        System.out.println(artAscii);
+    }
 
     public static void main(String[] args) {
-        logger.info("Lancement de l'application.");
+        LOGGER.info("Lancement de l'application.");
+
+        // Afficher l'art ASCII
+        afficherArtAscii();
 
         // Créer une instance de la classe Dictionnaire
         Dictionnaire dictionnaire = new Dictionnaire();
@@ -18,7 +34,7 @@ public class Main {
             // Utiliser la méthode de lecture sur le fichier CSV
             dictionnaire.readCSV();
         } catch (DictionnaireException e) {
-            logger.error("Erreur lors de la lecture du fichier CSV", e);
+            LOGGER.error("Erreur lors de la lecture du fichier CSV", e);
             return;
         }
 
@@ -28,6 +44,6 @@ public class Main {
         // Afficher le menu
         menu.displayMenu();
 
-        logger.info("Arrêt de l'application.");
+        LOGGER.info("Arrêt de l'application.");
     }
 }
